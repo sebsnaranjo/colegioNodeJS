@@ -11,3 +11,9 @@ Cors: Protección para el usuario <br>
 # Documentación
 
 Para la documentación se hizo uso de la libreria Swagger: API Documentation
+
+# Despliegue
+
+Para el despliegue de la aplicación se hizo uso de una instancia del servico EC2 de AWS
+Se uso Ubuntu
+https://ibb.co/rFGcJDV
