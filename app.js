@@ -2,7 +2,8 @@ const express = require("express");
 const mongoose = require("mongoose");
 require("dotenv").config();
 const estudiantesRoutes = require("./src/routes/estudiantes");
-const path = require("path")
+const path = require("path");
+const cors = require('cors');
 
 //swagger
 const swaggerUI = require("swagger-ui-express");
@@ -24,7 +25,8 @@ const swaggerSpec = {
 };
 
 const app = express();
-const port = process.env.PORT || 8080;
+app.use(cors());
+const port = process.env.PORT || 9000;
 
 // midleware
 app.use(express.json());
