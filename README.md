@@ -16,4 +16,4 @@ Para la documentación se hizo uso de la libreria Swagger: API Documentation
 
 Para el despliegue de la aplicación se hizo uso de una instancia (Ubuntu) del servico EC2 de AWS
 <a href="https://ibb.co/rFGcJDV"><img src="https://i.ibb.co/S5XdpFz/Instancia-1.jpg" alt="Instancia-1" border="0"></a>
-<a href="https://imgbb.com/"><img src="https://i.ibb.co/ydXCRqw/Instancia-2.jpg" alt="Instancia-2" border="0"></a>
+<a href="https://ibb.co/MSDZBB0"><img src="https://i.ibb.co/kBg5mmC/Instancia-3.jpg" alt="Instancia-3" border="0"></a>
