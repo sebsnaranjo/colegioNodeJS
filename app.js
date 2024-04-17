@@ -1,7 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
 require("dotenv").config();
-const estudiantesRoutes = require("./routes/estudiantes");
+const estudiantesRoutes = require("./src/routes/estudiantes");
 const path = require("path")
 
 //swagger
@@ -20,7 +20,7 @@ const swaggerSpec = {
             },
         ],
     },
-    apis: [`${path.join(__dirname, "./routes/*.js")}`]
+    apis: [`${path.join(__dirname, "./src/routes/*.js")}`]
 };
 
 const app = express();
