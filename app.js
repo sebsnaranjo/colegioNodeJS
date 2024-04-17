@@ -24,7 +24,7 @@ const swaggerSpec = {
 };
 
 const app = express();
-const port = process.env.PORT || 9000;
+const port = process.env.PORT || 8080;
 
 // midleware
 app.use(express.json());
