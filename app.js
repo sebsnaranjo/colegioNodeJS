@@ -38,7 +38,7 @@ app.get('/', (req, res) => {
 
 //mongodb conection
 mongoose
-    .connect('mongodb+srv://sebas:d3duuyb0zZ9hP91P@cluster0.z4plknc.mongodb.net/databasecolegio?retryWrites=true&w=majority&appName=Cluster0')
+    .connect(process.env.MONGODB_URI)
     .then(() => console.log("Connected to MongoDB Atlas"))
     .catch((error) => console.error(error));
 
